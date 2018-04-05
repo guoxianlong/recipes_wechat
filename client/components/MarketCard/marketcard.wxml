@@ -1,0 +1,6 @@
+<!--components/MarketCard/marketcard.wxml-->
+<view class='market-card-item' catchtap="_goToDetails">
+  <image class="market-card-img" src='{{imgUrl}}' />
+    {{name}}
+  <text class='market-address'>{{address}}</text>
+</view>

@@ -1,0 +1,31 @@
+/* pages/recipes/recipes.wxss */
+.search {
+  height: 125rpx;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 50rpx;
+  font-size: 70rpx;
+  padding-left: 40rpx;
+}
+.recipes {
+  padding: 0 40rpx;
+}
+
+.recipe-card {
+  height: 400rpx;
+  border: 1px solid #d4d4d4;
+  display: flex;
+  flex-grow: row;
+  align-items: flex-end;
+  margin-bottom: 20rpx;
+}
+
+.recipe-card-img {
+  width: 68%;
+  height: 100%;
+
+}
+
+.recipe-card-title {
+  font-size:70rpx;
+  writing-mode:tb;
+}

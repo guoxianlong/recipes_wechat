@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view>
+  <swiper indicator-dots='true' autoplay='true' duration='1000' style='height:200px'>
+    <block wx:for="{{adImg}}" wx:key>
+      <swiper-item>
+        <image src='{{item}}' class='ad-image' style='width:100%;height:100%;' />
+      </swiper-item>
+    </block>
+  </swiper>
+</view> 
+<view>
+  <view class='home-card-title'>通知栏</view>
+  <view class='home-card-list' wx:for="{{news}}"wx:key>
+    <view class='list'>{{item.title}} {{item.date}}</view>
+  </view>
+</view>
+
+<view>
+  <view class='home-card-title'>购物清单</view>
+  <view class='home-card-list' >
+    <checkbox wx:for="{{shoppingList}}" wx:key='{{item.id}}' checked='{{item.checked}}' value='{{item.label}}'>{{item.label}}</checkbox>
+  </view>
+</view>

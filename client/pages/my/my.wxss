@@ -1,0 +1,9 @@
+/* pages/my/my.wxss */
+.userinfo {
+  width: 100%;
+  text-align: center;
+}
+.userinfo-username {
+  text-align: center;
+  border-bottom: 1px solid #d4d4d4;
+}

@@ -1,0 +1,26 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.home-card-title {
+  border-bottom: 2px solid #d4d4d4;
+  font-size:50rpx;
+  background:#FF525C;
+  color:#fff;
+
+}
+.home-card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-card-list .list {
+  height: 80rpx;
+  text-align: left;
+  font-size: 45rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  border-bottom: 1px solid #d4d4d4;
+}

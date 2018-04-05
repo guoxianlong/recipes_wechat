@@ -1,0 +1,15 @@
+<!--pages/recipes/recipes.wxml-->
+<input type='text' class='search' placeholder='食材名称'></input>
+
+<view class='recipes'>
+  <view class='recipe-card'>
+    <image src='https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/mirabellen_160802-160.jpg' class='recipe-card-img' />
+    <text class='recipe-card-title'>神奇蔬菜</text>
+    <text class='recipe-card-author'>By ZCDC</text>
+  </view>
+  <view class='recipe-card'>
+    <image src='https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/mirabellen_160802-160.jpg' class='recipe-card-img' />
+    <text class='recipe-card-title'>神奇蔬菜</text>
+    <text class='recipe-card-author'>By ZCDC</text>
+  </view>
+</view>

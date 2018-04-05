@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/market/market",
+    "pages/recipes/recipes",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "治电农产品",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#1296db",
+    "position": "bottom",
+    "list" : [
+      {
+        "pagePath":"pages/index/index",
+        "text": "首页",
+        "iconPath":"./images/home.png",
+        "selectedIconPath":"./images/home_select.png"
+      },{
+        "pagePath": "pages/market/market",
+        "text": "菜市场",
+        "iconPath": "./images/market.png",
+        "selectedIconPath": "./images/market_select.png"
+      },{
+        "pagePath": "pages/recipes/recipes",
+        "text": "菜谱",
+        "iconPath": "./images/recipe.png",
+        "selectedIconPath": "./images/recipe_select.png"
+      },{
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/user.png",
+        "selectedIconPath": "./images/user_select.png"
+      }
+    ]
+  }
+}
