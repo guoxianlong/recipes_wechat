@@ -35,7 +35,7 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    _goToDetails: function(){
+    goToDetails: function(){
       this.triggerEvent("goToDetails")
     }
   }

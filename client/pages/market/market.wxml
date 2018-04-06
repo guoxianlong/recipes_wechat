@@ -8,19 +8,25 @@
     imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Dandelion_preview.jpeg"
     name="城东菜市场"
     address="长江西路12号"
-    bind:goToDetails="_goToDetails"
+    bind:goToDetails="goToDetails"
   />
   <marketcard id="marketcard"
     imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Ginger_preview.jpeg"
     name="城西菜市场"
     address="长江西路12号"
-    bind:goToDetails="_goToDetails"
+    bind:goToDetails="goToDetails"
   />
   <marketcard id="marketcard"
     imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Shallots_preview.jpeg"
     name="城南菜市场"
     address="长江西路12号"
-    bind:goToDetails="_goToDetails"
+    bind:goToDetails="goToDetails"
+  />
+  <marketcard id="marketcard"
+    imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Blackberries_preview.jpeg"
+    name="城北菜市场"
+    address="长江西路12号"
+    bind:goToDetails="goToDetails"
   />
   <marketcard id="marketcard"
     imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Blackberries_preview.jpeg"

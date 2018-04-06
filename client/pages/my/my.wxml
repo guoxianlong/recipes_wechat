@@ -13,3 +13,13 @@
       </view>
   </view>
 </view>
+
+<view class='my-card-list'>
+  <view class='my-card'>
+    <text>购物清单</text>
+  </view>
+  <view class='my-card'>
+    <text>用户反馈</text>
+  </view>
+</view>
+

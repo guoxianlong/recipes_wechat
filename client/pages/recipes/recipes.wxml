@@ -1,5 +1,7 @@
 <!--pages/recipes/recipes.wxml-->
-<input type='text' class='search' placeholder='食材名称'></input>
+<view class='my-search'>
+  <input type='text' class='search' placeholder='食材名称'></input>
+</view>
 
 <view class='recipes'>
   <view class='recipe-card'>

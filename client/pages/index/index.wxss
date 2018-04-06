@@ -15,6 +15,8 @@ page {
 .home-card-list {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
 }
 .home-card-list .list {
   height: 80rpx;
@@ -23,4 +25,30 @@ page {
   line-height: 80rpx;
   padding-left: 20rpx;
   border-bottom: 1px solid #d4d4d4;
+}
+/*checkbox 整体大小  */
+checkbox {
+  width: 240rpx;
+  height: 90rpx;
+}
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+  width: 50rpx;
+  height: 50rpx;
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #FF525C;
+}
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
 }
