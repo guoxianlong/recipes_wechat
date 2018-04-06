@@ -7,6 +7,7 @@
 
  - 2018.4.4 相关页面编写
  - 2018.4.5 将菜市场卡片改为组件
+ - 2018.4.6 修改搜索框样式，我的页面修改，[发现justify-content:evenly在真机无法正常显示样式](https://developers.weixin.qq.com/blogdetail?action=get_post_info&lang=zh_CN&token=1170421356&docid=0006e807118ea84b2f96669f851400)
 
 
 ## 腾讯云一站式部署开通指引
