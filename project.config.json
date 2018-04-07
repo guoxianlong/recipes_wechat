@@ -32,9 +32,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "market",
-					"pathName": "pages/market/market"
+					"id": 0,
+					"name": "recipes",
+					"pathName": "pages/my/my",
+					"query": ""
 				}
 			]
 		}
