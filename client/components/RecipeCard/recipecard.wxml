@@ -1,0 +1,6 @@
+<!--components/RecipeCard/recipecard.wxml-->
+<view class='recipe-card' catchtap="goToDetails">
+  <image src="{{imgUrl}}" class='recipe-card-img' />
+  <text class='recipe-card-title'>{{name}}</text>
+  <text class='recipe-card-author'>By {{author}}</text>
+</view>
