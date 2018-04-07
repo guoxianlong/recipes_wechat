@@ -1,0 +1,4 @@
+<!--components/MySearch/mysearch.wxml-->
+<view class='my-search'>
+  <input bindinput="search" type='text' confirm-type='search' class='search' placeholder="{{inputText}}"></input>
+</view>
