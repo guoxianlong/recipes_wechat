@@ -5,23 +5,35 @@
 }
 .userinfo-username {
   text-align: center;
-  border-bottom: 1px solid #FF525C;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 .my-card-list {
   margin-top: 30rpx;
   display: flex;
-  justify-content: space-around; 
+  justify-content:flex-start; 
+  padding: 0 50rpx;
+  font-size: 50rpx;
+  text-align: center;
 }
 .my-card {
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 40%;
-  height: 400rpx;
+  width: 35%;
+  height: 150rpx;
   background: #fff;
   border: 2rpx solid #FF525C;
   border-radius: 30rpx;
   padding: 40rpx;
+}
+
+.ad-img {
+  height: 500rpx;
+  background: #BAD487;
+  border:50rpx solid #fff;
+  color: #fff;
+  font-size: 60rpx;
+  text-align: center;
 }

@@ -21,5 +21,12 @@
   <view class='my-card'>
     <text>用户反馈</text>
   </view>
+  <view class='my-card'>
+    <text>+</text>
+  </view>
 </view>
-
+<view>
+  <view class='ad-img'>
+    广告位
+  </view>
+</view>
