@@ -1,17 +1,20 @@
 <!--pages/recipes/recipes.wxml-->
-<view class='my-search'>
-  <input type='text' class='search' placeholder='食材名称'></input>
-</view>
 
+<mysearch id="mysearch"
+  inputText="食材名称"
+  bind:search="searchRecipes"
+/>
 <view class='recipes'>
-  <view class='recipe-card'>
-    <image src='https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/mirabellen_160802-160.jpg' class='recipe-card-img' />
-    <text class='recipe-card-title'>神奇蔬菜</text>
-    <text class='recipe-card-author'>By ZCDC</text>
-  </view>
-  <view class='recipe-card'>
-    <image src='https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/mirabellen_160802-160.jpg' class='recipe-card-img' />
-    <text class='recipe-card-title'>神奇蔬菜</text>
-    <text class='recipe-card-author'>By ZCDC</text>
-  </view>
+  <recipecard id="recipecard"
+    imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/mirabellen_160802-160.jpg"
+    name="神奇蔬菜"
+    author="ZCDC"
+    bind:goToDetails="goToDetails"
+  />
+  <recipecard id="recipecard"
+    imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Edamer_preview.jpeg"
+    name="超级蔬菜"
+    author="zzes"
+    bind:goToDetails="goToDetails"
+  />
 </view>

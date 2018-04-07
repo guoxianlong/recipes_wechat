@@ -19,9 +19,16 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+    this.mysearch = this.selectComponent('#mysearch')
+    this.recipecard = this.selectComponent('#recipecard')
   },
-
+  goToDetails: function(){
+    console.log('zzz')
+  },
+  searchRecipes: function(value) {
+    console.log('搜索内容',value.detail.detail.value)
+    // console.log(value.detail.value)
+  },
   /**
    * 生命周期函数--监听页面显示
    */
