@@ -1,7 +1,8 @@
 <!--pages/market/market.wxml-->
-<view class='my-search'>
-  <input type='text' class='search' placeholder='菜市场名称'></input>
-</view>
+<mysearch id="mysearch"
+  inputText="菜市场名称"
+  bind:search="searchRecipes"
+/>
 
 <view class='market-card'>
   <marketcard id="marketcard"

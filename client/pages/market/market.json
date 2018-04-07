@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "marketcard": "/components/MarketCard/marketcard"
+    "marketcard": "/components/MarketCard/marketcard",
+    "mysearch": "/components/MySearch/mysearch"
   }
 }
