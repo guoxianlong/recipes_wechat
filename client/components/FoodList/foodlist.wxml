@@ -1,0 +1,6 @@
+<!--components/FoodList/foodlist.wxml-->
+  <view class="booth">
+    <text class="booth-name">{{name}}</text>
+    <text class="booth-price">{{price}}元/0.5kg</text>
+    <text class="booth-mark">{{star}}</text>
+  </view>
