@@ -1,24 +1,4 @@
 /* pages/recipes/recipes.wxss */
-.my-search {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.search {
-  border-radius: 100rpx;
-  height: 75rpx;
-  background: #fff;
-  border: 1px solid #d4d4d4;
-  margin-bottom: 50rpx;
-  font-size: 35rpx;
-  padding-left: 90rpx;
-}
-.search::before {
-  content: url(https://zzes-1251916954.cos.ap-shanghai.myqcloud.com/search.png);
-  position: absolute;
-  left: 20rpx;
-  top: 20rpx;
-}
 .recipes {
   margin-top: 90rpx;
   padding: 0 40rpx;

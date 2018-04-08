@@ -4,7 +4,9 @@
     "pages/addCgi/addCgi",
     "pages/market/market",
     "pages/recipes/recipes",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/marketdt/marketdt",
+    "pages/fooddt/fooddt"
   ],
   "window":{
     "backgroundColor":"#F6F6F6",

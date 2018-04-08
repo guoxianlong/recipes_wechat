@@ -26,7 +26,7 @@ Page({
     console.log('zzz')
   },
   searchRecipes: function(value) {
-    console.log('搜索内容',value.detail.detail.value)
+    console.log('搜索内容',value)
     // console.log(value.detail.value)
   },
   /**
