@@ -1,0 +1,8 @@
+<!--pages/fooddt/fooddt.wxml-->
+<view class="booth-lists">
+  <foodlist id="foodlist" 
+    name="摊位1"
+    price="11"
+    star="❤❤❤❤"
+  />
+</view>
