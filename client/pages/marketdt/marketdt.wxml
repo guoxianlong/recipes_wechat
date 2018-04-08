@@ -1,0 +1,22 @@
+<!--pages/marketdt/marketdt.wxml-->
+<mysearch id="mysearch"
+  inputText="食材名称"
+  bind:search="searchFoods"
+/>
+
+<view class="food-card">
+  <foodcard id="foodcard"
+    imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Egg_Yolk_preview.jpeg"
+    name="鸡蛋"
+    price="10"
+    bind:goToDetails="goToDetails"
+  />
+</view>
+
+<view class="food-card">
+  <foodcard id="foodcard"
+    imgUrl="https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Beef_Steak_preview.jpeg"
+    name="牛肉"
+    price="30"
+  />
+</view>

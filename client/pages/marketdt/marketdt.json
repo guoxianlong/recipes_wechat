@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "foodcard": "/components/FoodCard/foodcard",
+    "mysearch": "/components/MySearch/mysearch"
+  }
+}

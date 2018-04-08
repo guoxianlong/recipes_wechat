@@ -1,0 +1,5 @@
+/* pages/marketdt/marketdt.wxss */
+.food-card {
+  margin-top: 90rpx;
+  padding: 0 60rpx;
+}
