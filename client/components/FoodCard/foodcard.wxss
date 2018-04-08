@@ -1,0 +1,18 @@
+/* components/FoodCard/foodcard.wxss */
+.food {
+  border: 1px solid #d4d4d4;
+}
+.food-image {
+  width: 100%;
+  height: 300rpx;
+}
+
+.food-price {
+  color: #d4d4d4;
+}
+
+.food-name,
+.food-price {
+  padding-left: 40rpx;
+  margin-bottom: 20rpx;
+}

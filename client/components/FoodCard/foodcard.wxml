@@ -1,0 +1,6 @@
+<!--components/FoodCard/foodcard.wxml-->
+<view class="food" bindtap="goToDetails">
+  <image class="food-image" src="{{imgUrl}}" />
+  <view class="food-name">{{name}}</view>
+  <view class="food-price">均价：{{price}} 元/0.5kg</view>
+</view>
