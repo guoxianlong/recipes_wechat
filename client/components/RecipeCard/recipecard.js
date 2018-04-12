@@ -36,7 +36,7 @@ Component({
    */
   methods: {
     goToDetails: function() {
-      this.triggerEvent("goToDetails")
+      this.triggerEvent("goToDetails", this.properties)
     }
   }
 })

@@ -34,7 +34,7 @@
 				{
 					"id": 0,
 					"name": "recipes",
-					"pathName": "pages/market/market",
+					"pathName": "pages/recipes/recipes",
 					"query": ""
 				}
 			]

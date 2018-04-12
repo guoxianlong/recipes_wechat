@@ -1,0 +1,26 @@
+/* pages/recipesdt/recipesdt.wxss */
+ 
+.header-img {
+  width: 100%;
+  height: 500rpx;
+}
+
+.steps {
+  display: flex;
+  justify-content: flex-start;
+  align-items:baseline;
+  padding: 0 50rpx;
+  border: 1rpx solid #d4d4d4;
+  margin-bottom: 40rpx;
+}
+
+.step-circle {
+  width: 80rpx;
+  height: 80rpx;
+  background: red;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 50%;
+  margin-right: 50rpx;
+}

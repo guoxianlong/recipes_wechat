@@ -1,0 +1,8 @@
+<!--pages/recipesdt/recipesdt.wxml-->
+<image class='header-img' src='{{imgUrl}}' />
+<view class='steps' wx:for='{{steps}}' wx:key='{{index}}'>
+  <block>
+    <view class='step-circle'>{{index+1}}</view>
+    <view class='step-text'>{{item.step}}</view>
+  </block>
+</view>

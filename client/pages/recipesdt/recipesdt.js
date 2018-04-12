@@ -1,40 +1,37 @@
-// pages/recipes/recipes.js
+// pages/recipesdt/recipesdt.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    recipeName:'黄瓜',
+    imgUrl: 'https://frankfurt-cdr-contents-all.s3.cn-north-1.amazonaws.com.cn/Cucumber_preview.jpeg',
+    steps:[
+      {step:'eat'},
+      {step:'eat'},
+      {step:'eat'},
+      {step:'eat'}]
   },
 
   /**
    * 生命周期函数--监听页面加载
+   * options 菜谱名称 后期可能是id
    */
   onLoad: function (options) {
-  
+    console.log(options)
+    wx.setNavigationBarTitle({
+      title: options.id,
+    })
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    this.mysearch = this.selectComponent('#mysearch')
-    this.recipecard = this.selectComponent('#recipecard')
+  
   },
-  goToDetails: function(option){
-    console.log(option)
-    wx.navigateTo({
-      url: '/pages/recipesdt/recipesdt?id='+option.detail.name,
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-  },
-  searchRecipes: function(value) {
-    console.log('搜索内容',value)
-    // console.log(value.detail.value)
-  },
+
   /**
    * 生命周期函数--监听页面显示
    */
